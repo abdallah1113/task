@@ -49,7 +49,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                       const Text('ختيار مهمه رئيسية',
                           textAlign: TextAlign.start,
                           style: TextStyle(
-                            fontSize: 15,
+                            fontSize: 16,
                             color: Colors.amber,
                             fontWeight: FontWeight.bold,
                           )),
@@ -61,7 +61,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                   child: swo == true
                       ? GetBuilder<MonthController>(
                           init: MonthController(),
-                          builder: (c) {
+                          builder: (c ) {
                             return Directionality(
                               textDirection: TextDirection.rtl,
                               child: Container(
